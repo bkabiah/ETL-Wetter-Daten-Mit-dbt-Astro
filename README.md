@@ -1,10 +1,10 @@
-# 🌤️ ETL-WetterDaten Pipeline
+# ETL-WetterDaten Pipeline
 
 Dieses Projekt ist eine robuste ETL-Pipeline (Extract, Transform, Load) zur automatisierten Erfassung von Wetterdaten. Sie nutzt Apache Airflow (verwaltet über die Astronomer Astro CLI), um täglich aktuelle Wetterdaten von der Open-Meteo API abzurufen. Die Rohdaten werden anschließend in Python transformiert und zuverlässig in einer PostgreSQL-Datenbank gespeichert. Das gesamte Setup läuft containerisiert mit Docker auf einem Hostinger VPS, was eine einfache Bereitstellung, Reproduzierbarkeit und Skalierbarkeit gewährleistet. Es dient als ideale Grundlage für weiterführende Datenanalysen oder Machine-Learning-Modelle.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 Für die Umsetzung dieser Pipeline wird ein modernes und bewährtes Data-Engineering-Setup verwendet:
 
@@ -17,7 +17,7 @@ Für die Umsetzung dieser Pipeline wird ein modernes und bewährtes Data-Enginee
 
 ---
 
-## 🏗️ Architekturdiagramm
+## Architekturdiagramm
 
 Das folgende Diagramm veranschaulicht den Datenfluss und die Infrastruktur der Pipeline:
 
